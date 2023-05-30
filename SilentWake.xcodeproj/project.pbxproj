@@ -13,6 +13,17 @@
 		FC0711DF2A025B6E005955C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC0711DD2A025B6E005955C0 /* Main.storyboard */; };
 		FC0711E12A025B6F005955C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC0711E02A025B6F005955C0 /* Assets.xcassets */; };
 		FC0711E42A025B6F005955C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC0711E22A025B6F005955C0 /* LaunchScreen.storyboard */; };
+		FC0711F92A025B93005955C0 /* EmergencyAlarm1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FC0711EE2A025B92005955C0 /* EmergencyAlarm1.mp3 */; };
+		FC0711FA2A025B93005955C0 /* Alarm4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FC0711EF2A025B92005955C0 /* Alarm4.mp3 */; };
+		FC0711FB2A025B93005955C0 /* SchoolBell.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FC0711F02A025B92005955C0 /* SchoolBell.mp3 */; };
+		FC0711FC2A025B93005955C0 /* PhoneRing.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FC0711F12A025B92005955C0 /* PhoneRing.mp3 */; };
+		FC0711FD2A025B93005955C0 /* Alarm2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FC0711F22A025B92005955C0 /* Alarm2.mp3 */; };
+		FC0711FE2A025B93005955C0 /* Alarm3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FC0711F32A025B92005955C0 /* Alarm3.mp3 */; };
+		FC0711FF2A025B93005955C0 /* RadiationAlert.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FC0711F42A025B93005955C0 /* RadiationAlert.mp3 */; };
+		FC0712002A025B93005955C0 /* Alarm1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FC0711F52A025B93005955C0 /* Alarm1.mp3 */; };
+		FC0712012A025B93005955C0 /* LifeSupportAlarm.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FC0711F62A025B93005955C0 /* LifeSupportAlarm.mp3 */; };
+		FC0712022A025B93005955C0 /* ChickenSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FC0711F72A025B93005955C0 /* ChickenSound.mp3 */; };
+		FC0712032A025B93005955C0 /* EmergencyAlarm2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FC0711F82A025B93005955C0 /* EmergencyAlarm2.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +35,17 @@
 		FC0711E02A025B6F005955C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FC0711E32A025B6F005955C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FC0711E52A025B6F005955C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC0711EE2A025B92005955C0 /* EmergencyAlarm1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = EmergencyAlarm1.mp3; sourceTree = "<group>"; };
+		FC0711EF2A025B92005955C0 /* Alarm4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Alarm4.mp3; sourceTree = "<group>"; };
+		FC0711F02A025B92005955C0 /* SchoolBell.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = SchoolBell.mp3; sourceTree = "<group>"; };
+		FC0711F12A025B92005955C0 /* PhoneRing.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = PhoneRing.mp3; sourceTree = "<group>"; };
+		FC0711F22A025B92005955C0 /* Alarm2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Alarm2.mp3; sourceTree = "<group>"; };
+		FC0711F32A025B92005955C0 /* Alarm3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Alarm3.mp3; sourceTree = "<group>"; };
+		FC0711F42A025B93005955C0 /* RadiationAlert.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = RadiationAlert.mp3; sourceTree = "<group>"; };
+		FC0711F52A025B93005955C0 /* Alarm1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Alarm1.mp3; sourceTree = "<group>"; };
+		FC0711F62A025B93005955C0 /* LifeSupportAlarm.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = LifeSupportAlarm.mp3; sourceTree = "<group>"; };
+		FC0711F72A025B93005955C0 /* ChickenSound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ChickenSound.mp3; sourceTree = "<group>"; };
+		FC0711F82A025B93005955C0 /* EmergencyAlarm2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = EmergencyAlarm2.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +78,8 @@
 		FC0711D62A025B6E005955C0 /* SilentWake */ = {
 			isa = PBXGroup;
 			children = (
+				FC0711EB2A025B74005955C0 /* Resource */,
+				FC0711EC2A025B79005955C0 /* Source */,
 				FC0711D72A025B6E005955C0 /* AppDelegate.swift */,
 				FC0711D92A025B6E005955C0 /* SceneDelegate.swift */,
 				FC0711DB2A025B6E005955C0 /* ViewController.swift */,
@@ -65,6 +89,39 @@
 				FC0711E52A025B6F005955C0 /* Info.plist */,
 			);
 			path = SilentWake;
+			sourceTree = "<group>";
+		};
+		FC0711EB2A025B74005955C0 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				FC0711ED2A025B88005955C0 /* Sound */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		FC0711EC2A025B79005955C0 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		FC0711ED2A025B88005955C0 /* Sound */ = {
+			isa = PBXGroup;
+			children = (
+				FC0711F52A025B93005955C0 /* Alarm1.mp3 */,
+				FC0711F22A025B92005955C0 /* Alarm2.mp3 */,
+				FC0711F32A025B92005955C0 /* Alarm3.mp3 */,
+				FC0711EF2A025B92005955C0 /* Alarm4.mp3 */,
+				FC0711F72A025B93005955C0 /* ChickenSound.mp3 */,
+				FC0711EE2A025B92005955C0 /* EmergencyAlarm1.mp3 */,
+				FC0711F82A025B93005955C0 /* EmergencyAlarm2.mp3 */,
+				FC0711F62A025B93005955C0 /* LifeSupportAlarm.mp3 */,
+				FC0711F12A025B92005955C0 /* PhoneRing.mp3 */,
+				FC0711F42A025B93005955C0 /* RadiationAlert.mp3 */,
+				FC0711F02A025B92005955C0 /* SchoolBell.mp3 */,
+			);
+			path = Sound;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,9 +182,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC0711FC2A025B93005955C0 /* PhoneRing.mp3 in Resources */,
 				FC0711E42A025B6F005955C0 /* LaunchScreen.storyboard in Resources */,
 				FC0711E12A025B6F005955C0 /* Assets.xcassets in Resources */,
+				FC0712032A025B93005955C0 /* EmergencyAlarm2.mp3 in Resources */,
+				FC0712022A025B93005955C0 /* ChickenSound.mp3 in Resources */,
+				FC0711FF2A025B93005955C0 /* RadiationAlert.mp3 in Resources */,
+				FC0711F92A025B93005955C0 /* EmergencyAlarm1.mp3 in Resources */,
+				FC0711FA2A025B93005955C0 /* Alarm4.mp3 in Resources */,
 				FC0711DF2A025B6E005955C0 /* Main.storyboard in Resources */,
+				FC0711FB2A025B93005955C0 /* SchoolBell.mp3 in Resources */,
+				FC0712012A025B93005955C0 /* LifeSupportAlarm.mp3 in Resources */,
+				FC0711FD2A025B93005955C0 /* Alarm2.mp3 in Resources */,
+				FC0712002A025B93005955C0 /* Alarm1.mp3 in Resources */,
+				FC0711FE2A025B93005955C0 /* Alarm3.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
