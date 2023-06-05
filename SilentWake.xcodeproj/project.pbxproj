@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FC0457992A2DC0C600E6BBD9 /* PlayerUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0457982A2DC0C600E6BBD9 /* PlayerUseCase.swift */; };
+		FC0457A22A2DD02900E6BBD9 /* ServiceProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0457A12A2DD02900E6BBD9 /* ServiceProvider.swift */; };
+		FC0457A42A2DD05800E6BBD9 /* BaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0457A32A2DD05800E6BBD9 /* BaseService.swift */; };
 		FC0711D82A025B6E005955C0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0711D72A025B6E005955C0 /* AppDelegate.swift */; };
 		FC0711DA2A025B6E005955C0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0711D92A025B6E005955C0 /* SceneDelegate.swift */; };
 		FC0711DC2A025B6E005955C0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0711DB2A025B6E005955C0 /* ViewController.swift */; };
@@ -25,12 +26,13 @@
 		FC0712022A025B93005955C0 /* ChickenSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FC0711F72A025B93005955C0 /* ChickenSound.mp3 */; };
 		FC0712032A025B93005955C0 /* EmergencyAlarm2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FC0711F82A025B93005955C0 /* EmergencyAlarm2.mp3 */; };
 		FC7EE2CF2A263214001A075F /* AlarmType.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC7EE2CE2A263214001A075F /* AlarmType.swift */; };
-		FC7EE2D12A2633EE001A075F /* AlarmPlayerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC7EE2D02A2633EE001A075F /* AlarmPlayerManager.swift */; };
+		FC7EE2D12A2633EE001A075F /* AlarmPlayerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC7EE2D02A2633EE001A075F /* AlarmPlayerService.swift */; };
 		FC7EE2D32A263491001A075F /* PlayerError.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC7EE2D22A263491001A075F /* PlayerError.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		FC0457982A2DC0C600E6BBD9 /* PlayerUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerUseCase.swift; sourceTree = "<group>"; };
+		FC0457A12A2DD02900E6BBD9 /* ServiceProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceProvider.swift; sourceTree = "<group>"; };
+		FC0457A32A2DD05800E6BBD9 /* BaseService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseService.swift; sourceTree = "<group>"; };
 		FC0711D42A025B6E005955C0 /* SilentWake.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SilentWake.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC0711D72A025B6E005955C0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FC0711D92A025B6E005955C0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -50,7 +52,7 @@
 		FC0711F72A025B93005955C0 /* ChickenSound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ChickenSound.mp3; sourceTree = "<group>"; };
 		FC0711F82A025B93005955C0 /* EmergencyAlarm2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = EmergencyAlarm2.mp3; sourceTree = "<group>"; };
 		FC7EE2CE2A263214001A075F /* AlarmType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmType.swift; sourceTree = "<group>"; };
-		FC7EE2D02A2633EE001A075F /* AlarmPlayerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmPlayerManager.swift; sourceTree = "<group>"; };
+		FC7EE2D02A2633EE001A075F /* AlarmPlayerService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmPlayerService.swift; sourceTree = "<group>"; };
 		FC7EE2D22A263491001A075F /* PlayerError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerError.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -65,6 +67,61 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FC04579A2A2DCEAD00E6BBD9 /* Types */ = {
+			isa = PBXGroup;
+			children = (
+				FC7EE2CE2A263214001A075F /* AlarmType.swift */,
+				FC7EE2D22A263491001A075F /* PlayerError.swift */,
+			);
+			path = Types;
+			sourceTree = "<group>";
+		};
+		FC04579B2A2DCEB500E6BBD9 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				FC0457A12A2DD02900E6BBD9 /* ServiceProvider.swift */,
+				FC0457A32A2DD05800E6BBD9 /* BaseService.swift */,
+				FC7EE2D02A2633EE001A075F /* AlarmPlayerService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		FC04579C2A2DCEBA00E6BBD9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		FC04579D2A2DCEBF00E6BBD9 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				FC0711DB2A025B6E005955C0 /* ViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		FC04579E2A2DCEC800E6BBD9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FC04579F2A2DCECB00E6BBD9 /* Rx */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Rx;
+			sourceTree = "<group>";
+		};
+		FC0457A02A2DCECD00E6BBD9 /* Utill */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utill;
+			sourceTree = "<group>";
+		};
 		FC0711CB2A025B6E005955C0 = {
 			isa = PBXGroup;
 			children = (
@@ -93,6 +150,7 @@
 		FC0711EB2A025B74005955C0 /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				FC0711E22A025B6F005955C0 /* LaunchScreen.storyboard */,
 				FC0711E02A025B6F005955C0 /* Assets.xcassets */,
 				FC0711E52A025B6F005955C0 /* Info.plist */,
 				FC0711ED2A025B88005955C0 /* Sound */,
@@ -104,9 +162,13 @@
 			isa = PBXGroup;
 			children = (
 				FC7EE2C82A25878E001A075F /* App */,
-				FC7EE2CB2A258796001A075F /* Data */,
-				FC7EE2CA2A258793001A075F /* Domain */,
-				FC7EE2C92A258790001A075F /* Presenter */,
+				FC04579A2A2DCEAD00E6BBD9 /* Types */,
+				FC04579B2A2DCEB500E6BBD9 /* Services */,
+				FC04579C2A2DCEBA00E6BBD9 /* Models */,
+				FC0457A02A2DCECD00E6BBD9 /* Utill */,
+				FC04579F2A2DCECB00E6BBD9 /* Rx */,
+				FC04579E2A2DCEC800E6BBD9 /* Views */,
+				FC04579D2A2DCEBF00E6BBD9 /* ViewControllers */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -136,49 +198,6 @@
 				FC0711D92A025B6E005955C0 /* SceneDelegate.swift */,
 			);
 			path = App;
-			sourceTree = "<group>";
-		};
-		FC7EE2C92A258790001A075F /* Presenter */ = {
-			isa = PBXGroup;
-			children = (
-				FC0711E22A025B6F005955C0 /* LaunchScreen.storyboard */,
-				FC0711DB2A025B6E005955C0 /* ViewController.swift */,
-			);
-			path = Presenter;
-			sourceTree = "<group>";
-		};
-		FC7EE2CA2A258793001A075F /* Domain */ = {
-			isa = PBXGroup;
-			children = (
-				FC7EE2D52A263743001A075F /* UseCase */,
-				FC7EE2D42A263738001A075F /* Entity */,
-			);
-			path = Domain;
-			sourceTree = "<group>";
-		};
-		FC7EE2CB2A258796001A075F /* Data */ = {
-			isa = PBXGroup;
-			children = (
-				FC7EE2D02A2633EE001A075F /* AlarmPlayerManager.swift */,
-				FC7EE2D22A263491001A075F /* PlayerError.swift */,
-			);
-			path = Data;
-			sourceTree = "<group>";
-		};
-		FC7EE2D42A263738001A075F /* Entity */ = {
-			isa = PBXGroup;
-			children = (
-				FC7EE2CE2A263214001A075F /* AlarmType.swift */,
-			);
-			path = Entity;
-			sourceTree = "<group>";
-		};
-		FC7EE2D52A263743001A075F /* UseCase */ = {
-			isa = PBXGroup;
-			children = (
-				FC0457982A2DC0C600E6BBD9 /* PlayerUseCase.swift */,
-			);
-			path = UseCase;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,11 +281,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC0457A42A2DD05800E6BBD9 /* BaseService.swift in Sources */,
 				FC0711DC2A025B6E005955C0 /* ViewController.swift in Sources */,
 				FC7EE2CF2A263214001A075F /* AlarmType.swift in Sources */,
-				FC0457992A2DC0C600E6BBD9 /* PlayerUseCase.swift in Sources */,
+				FC0457A22A2DD02900E6BBD9 /* ServiceProvider.swift in Sources */,
 				FC0711D82A025B6E005955C0 /* AppDelegate.swift in Sources */,
-				FC7EE2D12A2633EE001A075F /* AlarmPlayerManager.swift in Sources */,
+				FC7EE2D12A2633EE001A075F /* AlarmPlayerService.swift in Sources */,
 				FC0711DA2A025B6E005955C0 /* SceneDelegate.swift in Sources */,
 				FC7EE2D32A263491001A075F /* PlayerError.swift in Sources */,
 			);

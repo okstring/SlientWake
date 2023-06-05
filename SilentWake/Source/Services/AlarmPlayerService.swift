@@ -8,19 +8,29 @@
 import AVFoundation
 import Foundation
 
-protocol AlarmPlayerManagerProtocol {
-    static var shared: AlarmPlayerManagerProtocol { get }
-
+protocol AlarmPlayerServiceType {
     func setAlarm(of type: AlarmType) throws
     func play()
 }
 
-class AlarmPlayerManager: AlarmPlayerManagerProtocol {
+class AlarmPlayerService: BaseService, AlarmPlayerServiceType {
+    var shared: AlarmPlayerManager {
+        return AlarmPlayerManager.shared
+    }
+
+    func setAlarm(of type: AlarmType) throws {
+        try shared.setAlarm(of: type)
+    }
+
+    func play() {
+        shared.play()
+    }
+}
+
+class AlarmPlayerManager {
     var player: AVAudioPlayer?
 
-    static var shared: AlarmPlayerManagerProtocol = AlarmPlayerManager()
-
-    private init() { }
+    static let shared = AlarmPlayerManager()
 
     func setAlarm(of type: AlarmType) throws {
         guard let alarmURL = type.alarmURL else {
