@@ -8,7 +8,10 @@
 import UIKit
 import AVFoundation
 
+import RxSwift
+
 class ViewController: UIViewController {
+    let disposeBag = DisposeBag()
     var player: AVAudioPlayer!
 
     override func viewDidLoad() {

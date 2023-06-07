@@ -9,6 +9,17 @@
 /* Begin PBXBuildFile section */
 		FC0457A22A2DD02900E6BBD9 /* ServiceProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0457A12A2DD02900E6BBD9 /* ServiceProvider.swift */; };
 		FC0457A42A2DD05800E6BBD9 /* BaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0457A32A2DD05800E6BBD9 /* BaseService.swift */; };
+		FC0457AA2A302D7400E6BBD9 /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = FC0457A92A302D7400E6BBD9 /* RxCocoa */; };
+		FC0457AC2A302D7400E6BBD9 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = FC0457AB2A302D7400E6BBD9 /* RxSwift */; };
+		FC0457B42A302E7C00E6BBD9 /* URLInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0457AE2A302E7C00E6BBD9 /* URLInfo.swift */; };
+		FC0457B52A302E7C00E6BBD9 /* NetworkAPIMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0457AF2A302E7C00E6BBD9 /* NetworkAPIMethod.swift */; };
+		FC0457B62A302E7C00E6BBD9 /* NetworkAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0457B02A302E7C00E6BBD9 /* NetworkAPI.swift */; };
+		FC0457B72A302E7C00E6BBD9 /* RequestInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0457B12A302E7C00E6BBD9 /* RequestInfo.swift */; };
+		FC0457B82A302E7C00E6BBD9 /* NetworkAPIDefinition.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0457B22A302E7C00E6BBD9 /* NetworkAPIDefinition.swift */; };
+		FC0457B92A302E7C00E6BBD9 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0457B32A302E7C00E6BBD9 /* NetworkError.swift */; };
+		FC0457BB2A302EB000E6BBD9 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0457BA2A302EB000E6BBD9 /* Logger.swift */; };
+		FC0457BF2A303EEC00E6BBD9 /* JsonAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0457BE2A303EEC00E6BBD9 /* JsonAPI.swift */; };
+		FC0457C12A303F3200E6BBD9 /* EmptyParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0457C02A303F3200E6BBD9 /* EmptyParameters.swift */; };
 		FC0711D82A025B6E005955C0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0711D72A025B6E005955C0 /* AppDelegate.swift */; };
 		FC0711DA2A025B6E005955C0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0711D92A025B6E005955C0 /* SceneDelegate.swift */; };
 		FC0711DC2A025B6E005955C0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0711DB2A025B6E005955C0 /* ViewController.swift */; };
@@ -33,6 +44,16 @@
 /* Begin PBXFileReference section */
 		FC0457A12A2DD02900E6BBD9 /* ServiceProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceProvider.swift; sourceTree = "<group>"; };
 		FC0457A32A2DD05800E6BBD9 /* BaseService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseService.swift; sourceTree = "<group>"; };
+		FC0457AE2A302E7C00E6BBD9 /* URLInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLInfo.swift; sourceTree = "<group>"; };
+		FC0457AF2A302E7C00E6BBD9 /* NetworkAPIMethod.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkAPIMethod.swift; sourceTree = "<group>"; };
+		FC0457B02A302E7C00E6BBD9 /* NetworkAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkAPI.swift; sourceTree = "<group>"; };
+		FC0457B12A302E7C00E6BBD9 /* RequestInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestInfo.swift; sourceTree = "<group>"; };
+		FC0457B22A302E7C00E6BBD9 /* NetworkAPIDefinition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkAPIDefinition.swift; sourceTree = "<group>"; };
+		FC0457B32A302E7C00E6BBD9 /* NetworkError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
+		FC0457BA2A302EB000E6BBD9 /* Logger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
+		FC0457BC2A302ED300E6BBD9 /* Config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
+		FC0457BE2A303EEC00E6BBD9 /* JsonAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonAPI.swift; sourceTree = "<group>"; };
+		FC0457C02A303F3200E6BBD9 /* EmptyParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyParameters.swift; sourceTree = "<group>"; };
 		FC0711D42A025B6E005955C0 /* SilentWake.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SilentWake.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC0711D72A025B6E005955C0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FC0711D92A025B6E005955C0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -61,6 +82,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC0457AC2A302D7400E6BBD9 /* RxSwift in Frameworks */,
+				FC0457AA2A302D7400E6BBD9 /* RxCocoa in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -122,6 +145,37 @@
 			path = Utill;
 			sourceTree = "<group>";
 		};
+		FC0457A72A302D4A00E6BBD9 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				FC0457BD2A303EDE00E6BBD9 /* Base */,
+				FC0457BE2A303EEC00E6BBD9 /* JsonAPI.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		FC0457AD2A302E7C00E6BBD9 /* NetworkAPI */ = {
+			isa = PBXGroup;
+			children = (
+				FC0457B02A302E7C00E6BBD9 /* NetworkAPI.swift */,
+				FC0457AE2A302E7C00E6BBD9 /* URLInfo.swift */,
+				FC0457AF2A302E7C00E6BBD9 /* NetworkAPIMethod.swift */,
+				FC0457B12A302E7C00E6BBD9 /* RequestInfo.swift */,
+			);
+			path = NetworkAPI;
+			sourceTree = "<group>";
+		};
+		FC0457BD2A303EDE00E6BBD9 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				FC0457C02A303F3200E6BBD9 /* EmptyParameters.swift */,
+				FC0457AD2A302E7C00E6BBD9 /* NetworkAPI */,
+				FC0457B22A302E7C00E6BBD9 /* NetworkAPIDefinition.swift */,
+				FC0457B32A302E7C00E6BBD9 /* NetworkError.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
 		FC0711CB2A025B6E005955C0 = {
 			isa = PBXGroup;
 			children = (
@@ -154,6 +208,7 @@
 				FC0711E02A025B6F005955C0 /* Assets.xcassets */,
 				FC0711E52A025B6F005955C0 /* Info.plist */,
 				FC0711ED2A025B88005955C0 /* Sound */,
+				FC0457BC2A302ED300E6BBD9 /* Config.xcconfig */,
 			);
 			path = Resource;
 			sourceTree = "<group>";
@@ -163,6 +218,7 @@
 			children = (
 				FC7EE2C82A25878E001A075F /* App */,
 				FC04579A2A2DCEAD00E6BBD9 /* Types */,
+				FC0457A72A302D4A00E6BBD9 /* Network */,
 				FC04579B2A2DCEB500E6BBD9 /* Services */,
 				FC04579C2A2DCEBA00E6BBD9 /* Models */,
 				FC0457A02A2DCECD00E6BBD9 /* Utill */,
@@ -196,6 +252,7 @@
 			children = (
 				FC0711D72A025B6E005955C0 /* AppDelegate.swift */,
 				FC0711D92A025B6E005955C0 /* SceneDelegate.swift */,
+				FC0457BA2A302EB000E6BBD9 /* Logger.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -216,6 +273,10 @@
 			dependencies = (
 			);
 			name = SilentWake;
+			packageProductDependencies = (
+				FC0457A92A302D7400E6BBD9 /* RxCocoa */,
+				FC0457AB2A302D7400E6BBD9 /* RxSwift */,
+			);
 			productName = SilentWake;
 			productReference = FC0711D42A025B6E005955C0 /* SilentWake.app */;
 			productType = "com.apple.product-type.application";
@@ -244,6 +305,9 @@
 				Base,
 			);
 			mainGroup = FC0711CB2A025B6E005955C0;
+			packageReferences = (
+				FC0457A82A302D7400E6BBD9 /* XCRemoteSwiftPackageReference "RxSwift" */,
+			);
 			productRefGroup = FC0711D52A025B6E005955C0 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -284,11 +348,20 @@
 				FC0457A42A2DD05800E6BBD9 /* BaseService.swift in Sources */,
 				FC0711DC2A025B6E005955C0 /* ViewController.swift in Sources */,
 				FC7EE2CF2A263214001A075F /* AlarmType.swift in Sources */,
+				FC0457B72A302E7C00E6BBD9 /* RequestInfo.swift in Sources */,
+				FC0457C12A303F3200E6BBD9 /* EmptyParameters.swift in Sources */,
 				FC0457A22A2DD02900E6BBD9 /* ServiceProvider.swift in Sources */,
+				FC0457B82A302E7C00E6BBD9 /* NetworkAPIDefinition.swift in Sources */,
+				FC0457B42A302E7C00E6BBD9 /* URLInfo.swift in Sources */,
 				FC0711D82A025B6E005955C0 /* AppDelegate.swift in Sources */,
+				FC0457B92A302E7C00E6BBD9 /* NetworkError.swift in Sources */,
+				FC0457B52A302E7C00E6BBD9 /* NetworkAPIMethod.swift in Sources */,
+				FC0457BB2A302EB000E6BBD9 /* Logger.swift in Sources */,
 				FC7EE2D12A2633EE001A075F /* AlarmPlayerService.swift in Sources */,
+				FC0457BF2A303EEC00E6BBD9 /* JsonAPI.swift in Sources */,
 				FC0711DA2A025B6E005955C0 /* SceneDelegate.swift in Sources */,
 				FC7EE2D32A263491001A075F /* PlayerError.swift in Sources */,
+				FC0457B62A302E7C00E6BBD9 /* NetworkAPI.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,6 +381,7 @@
 /* Begin XCBuildConfiguration section */
 		FC0711E62A025B6F005955C0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC0457BC2A302ED300E6BBD9 /* Config.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -368,6 +442,7 @@
 		};
 		FC0711E72A025B6F005955C0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC0457BC2A302ED300E6BBD9 /* Config.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -422,6 +497,7 @@
 		};
 		FC0711E92A025B6F005955C0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC0457BC2A302ED300E6BBD9 /* Config.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -455,6 +531,7 @@
 		};
 		FC0711EA2A025B6F005955C0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC0457BC2A302ED300E6BBD9 /* Config.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -508,6 +585,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		FC0457A82A302D7400E6BBD9 /* XCRemoteSwiftPackageReference "RxSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReactiveX/RxSwift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		FC0457A92A302D7400E6BBD9 /* RxCocoa */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FC0457A82A302D7400E6BBD9 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxCocoa;
+		};
+		FC0457AB2A302D7400E6BBD9 /* RxSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FC0457A82A302D7400E6BBD9 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = FC0711CC2A025B6E005955C0 /* Project object */;
 }
