@@ -1,0 +1,12 @@
+//
+//  Config.xcconfig
+//  SilentWake
+//
+//  Created by Ok Hyeon Kim on 2023/06/07.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+// https://jsonplaceholder.typicode.com/posts
+JSON_PLACEHOLDER_HOST = jsonplaceholder.typicode.com
