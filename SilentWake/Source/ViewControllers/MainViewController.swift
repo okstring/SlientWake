@@ -8,10 +8,11 @@
 import UIKit
 import AVFoundation
 
+import ReactorKit
 import RxSwift
 
-class ViewController: UIViewController {
-    let disposeBag = DisposeBag()
+class MainViewController: UIViewController, View {
+    var disposeBag = DisposeBag()
     var player: AVAudioPlayer!
 
     override func viewDidLoad() {
@@ -33,6 +34,10 @@ class ViewController: UIViewController {
             print(self.player.isPlaying)
             self.player.volume = 1.0
         })
+    }
+
+    func bind(reactor: MainReactor) {
+
     }
 }
 

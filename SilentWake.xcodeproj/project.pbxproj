@@ -20,9 +20,12 @@
 		FC0457BB2A302EB000E6BBD9 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0457BA2A302EB000E6BBD9 /* Logger.swift */; };
 		FC0457BF2A303EEC00E6BBD9 /* JsonAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0457BE2A303EEC00E6BBD9 /* JsonAPI.swift */; };
 		FC0457C12A303F3200E6BBD9 /* EmptyParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0457C02A303F3200E6BBD9 /* EmptyParameters.swift */; };
+		FC0457C32A309CC300E6BBD9 /* MainReactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0457C22A309CC300E6BBD9 /* MainReactor.swift */; };
+		FC0457C62A309CF700E6BBD9 /* ReactorKit in Frameworks */ = {isa = PBXBuildFile; productRef = FC0457C52A309CF700E6BBD9 /* ReactorKit */; };
+		FC0457C92A309D0300E6BBD9 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = FC0457C82A309D0300E6BBD9 /* SnapKit */; };
 		FC0711D82A025B6E005955C0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0711D72A025B6E005955C0 /* AppDelegate.swift */; };
 		FC0711DA2A025B6E005955C0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0711D92A025B6E005955C0 /* SceneDelegate.swift */; };
-		FC0711DC2A025B6E005955C0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0711DB2A025B6E005955C0 /* ViewController.swift */; };
+		FC0711DC2A025B6E005955C0 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0711DB2A025B6E005955C0 /* MainViewController.swift */; };
 		FC0711E12A025B6F005955C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC0711E02A025B6F005955C0 /* Assets.xcassets */; };
 		FC0711E42A025B6F005955C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC0711E22A025B6F005955C0 /* LaunchScreen.storyboard */; };
 		FC0711F92A025B93005955C0 /* EmergencyAlarm1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FC0711EE2A025B92005955C0 /* EmergencyAlarm1.mp3 */; };
@@ -54,10 +57,11 @@
 		FC0457BC2A302ED300E6BBD9 /* Config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
 		FC0457BE2A303EEC00E6BBD9 /* JsonAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonAPI.swift; sourceTree = "<group>"; };
 		FC0457C02A303F3200E6BBD9 /* EmptyParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyParameters.swift; sourceTree = "<group>"; };
+		FC0457C22A309CC300E6BBD9 /* MainReactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainReactor.swift; sourceTree = "<group>"; };
 		FC0711D42A025B6E005955C0 /* SilentWake.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SilentWake.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC0711D72A025B6E005955C0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FC0711D92A025B6E005955C0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		FC0711DB2A025B6E005955C0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FC0711DB2A025B6E005955C0 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		FC0711E02A025B6F005955C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FC0711E32A025B6F005955C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FC0711E52A025B6F005955C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -83,6 +87,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				FC0457AC2A302D7400E6BBD9 /* RxSwift in Frameworks */,
+				FC0457C92A309D0300E6BBD9 /* SnapKit in Frameworks */,
+				FC0457C62A309CF700E6BBD9 /* ReactorKit in Frameworks */,
 				FC0457AA2A302D7400E6BBD9 /* RxCocoa in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -119,7 +125,8 @@
 		FC04579D2A2DCEBF00E6BBD9 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				FC0711DB2A025B6E005955C0 /* ViewController.swift */,
+				FC0711DB2A025B6E005955C0 /* MainViewController.swift */,
+				FC0457C22A309CC300E6BBD9 /* MainReactor.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -129,13 +136,6 @@
 			children = (
 			);
 			path = Views;
-			sourceTree = "<group>";
-		};
-		FC04579F2A2DCECB00E6BBD9 /* Rx */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Rx;
 			sourceTree = "<group>";
 		};
 		FC0457A02A2DCECD00E6BBD9 /* Utill */ = {
@@ -222,7 +222,6 @@
 				FC04579B2A2DCEB500E6BBD9 /* Services */,
 				FC04579C2A2DCEBA00E6BBD9 /* Models */,
 				FC0457A02A2DCECD00E6BBD9 /* Utill */,
-				FC04579F2A2DCECB00E6BBD9 /* Rx */,
 				FC04579E2A2DCEC800E6BBD9 /* Views */,
 				FC04579D2A2DCEBF00E6BBD9 /* ViewControllers */,
 			);
@@ -276,6 +275,8 @@
 			packageProductDependencies = (
 				FC0457A92A302D7400E6BBD9 /* RxCocoa */,
 				FC0457AB2A302D7400E6BBD9 /* RxSwift */,
+				FC0457C52A309CF700E6BBD9 /* ReactorKit */,
+				FC0457C82A309D0300E6BBD9 /* SnapKit */,
 			);
 			productName = SilentWake;
 			productReference = FC0711D42A025B6E005955C0 /* SilentWake.app */;
@@ -307,6 +308,8 @@
 			mainGroup = FC0711CB2A025B6E005955C0;
 			packageReferences = (
 				FC0457A82A302D7400E6BBD9 /* XCRemoteSwiftPackageReference "RxSwift" */,
+				FC0457C42A309CF700E6BBD9 /* XCRemoteSwiftPackageReference "ReactorKit" */,
+				FC0457C72A309D0300E6BBD9 /* XCRemoteSwiftPackageReference "SnapKit" */,
 			);
 			productRefGroup = FC0711D52A025B6E005955C0 /* Products */;
 			projectDirPath = "";
@@ -346,7 +349,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FC0457A42A2DD05800E6BBD9 /* BaseService.swift in Sources */,
-				FC0711DC2A025B6E005955C0 /* ViewController.swift in Sources */,
+				FC0711DC2A025B6E005955C0 /* MainViewController.swift in Sources */,
 				FC7EE2CF2A263214001A075F /* AlarmType.swift in Sources */,
 				FC0457B72A302E7C00E6BBD9 /* RequestInfo.swift in Sources */,
 				FC0457C12A303F3200E6BBD9 /* EmptyParameters.swift in Sources */,
@@ -358,6 +361,7 @@
 				FC0457B52A302E7C00E6BBD9 /* NetworkAPIMethod.swift in Sources */,
 				FC0457BB2A302EB000E6BBD9 /* Logger.swift in Sources */,
 				FC7EE2D12A2633EE001A075F /* AlarmPlayerService.swift in Sources */,
+				FC0457C32A309CC300E6BBD9 /* MainReactor.swift in Sources */,
 				FC0457BF2A303EEC00E6BBD9 /* JsonAPI.swift in Sources */,
 				FC0711DA2A025B6E005955C0 /* SceneDelegate.swift in Sources */,
 				FC7EE2D32A263491001A075F /* PlayerError.swift in Sources */,
@@ -595,6 +599,22 @@
 				minimumVersion = 6.0.0;
 			};
 		};
+		FC0457C42A309CF700E6BBD9 /* XCRemoteSwiftPackageReference "ReactorKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReactorKit/ReactorKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.0;
+			};
+		};
+		FC0457C72A309D0300E6BBD9 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -607,6 +627,16 @@
 			isa = XCSwiftPackageProductDependency;
 			package = FC0457A82A302D7400E6BBD9 /* XCRemoteSwiftPackageReference "RxSwift" */;
 			productName = RxSwift;
+		};
+		FC0457C52A309CF700E6BBD9 /* ReactorKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FC0457C42A309CF700E6BBD9 /* XCRemoteSwiftPackageReference "ReactorKit" */;
+			productName = ReactorKit;
+		};
+		FC0457C82A309D0300E6BBD9 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FC0457C72A309D0300E6BBD9 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
