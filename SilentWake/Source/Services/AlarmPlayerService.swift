@@ -14,16 +14,16 @@ protocol AlarmPlayerServiceType {
 }
 
 class AlarmPlayerService: BaseService, AlarmPlayerServiceType {
-    var shared: AlarmPlayerManager {
+    private var player: AlarmPlayerManager {
         return AlarmPlayerManager.shared
     }
 
     func setAlarm(of type: AlarmType) throws {
-        try shared.setAlarm(of: type)
+        try player.setAlarm(of: type)
     }
 
     func play() {
-        shared.play()
+        player.play()
     }
 }
 
