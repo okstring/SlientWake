@@ -9,6 +9,7 @@ import UIKit
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
+    private let provider = ServiceProvider()
     var window: UIWindow?
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
@@ -16,8 +17,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             return true
         }
 
+        let mainReactor = MainReactor(provider: provider)
+        let mainViewController = MainViewController(reactor: mainReactor)
+
         window = UIWindow()
-        window?.rootViewController = MainViewController()
+        window?.rootViewController = mainViewController
         window?.makeKeyAndVisible()
         return true
     }

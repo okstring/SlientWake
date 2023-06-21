@@ -8,6 +8,7 @@
 import UIKit
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
+    private let provider = ServiceProvider()
     var window: UIWindow?
 
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
@@ -16,7 +17,11 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         }
 
         let window = UIWindow(windowScene: scene)
-        window.rootViewController = MainViewController()
+
+        let mainReactor = MainReactor(provider: provider)
+        let mainViewController = MainViewController(reactor: mainReactor)
+
+        window.rootViewController = mainViewController
         window.makeKeyAndVisible()
         self.window = window
     }

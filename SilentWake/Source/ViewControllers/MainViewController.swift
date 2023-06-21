@@ -12,8 +12,7 @@ import ReactorKit
 import RxSwift
 import SnapKit
 
-class MainViewController: UIViewController, View {
-    var disposeBag = DisposeBag()
+class MainViewController: BaseViewController, View {
     var player: AVAudioPlayer!
 
     var remainingTime = 0
@@ -50,6 +49,15 @@ class MainViewController: UIViewController, View {
         button.setTitleColor(.blue, for: .normal)
         return button
     }()
+
+    init(reactor: MainReactor) {
+      super.init()
+      self.reactor = reactor
+    }
+
+    required init?(coder aDecoder: NSCoder) {
+      fatalError("init(coder:) has not been implemented")
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()

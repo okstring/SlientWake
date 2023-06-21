@@ -26,8 +26,10 @@ class MainReactor: Reactor {
     }
 
     let initialState: State
+    let provider: ServiceProviderType
 
-    init() {
+    init(provider: ServiceProviderType) {
+        self.provider = provider
         self.initialState = State()
     }
 }

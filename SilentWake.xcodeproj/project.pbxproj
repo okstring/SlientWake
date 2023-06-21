@@ -49,6 +49,7 @@
 		FC7EE2D12A2633EE001A075F /* AlarmPlayerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC7EE2D02A2633EE001A075F /* AlarmPlayerService.swift */; };
 		FC7EE2D32A263491001A075F /* PlayerError.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC7EE2D22A263491001A075F /* PlayerError.swift */; };
 		FCEA073E2A417DA60073B56D /* UIColor+.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCEA073D2A417DA60073B56D /* UIColor+.swift */; };
+		FCEA07432A42D8B70073B56D /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCEA07422A42D8B70073B56D /* BaseViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -93,6 +94,7 @@
 		FC7EE2D02A2633EE001A075F /* AlarmPlayerService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmPlayerService.swift; sourceTree = "<group>"; };
 		FC7EE2D22A263491001A075F /* PlayerError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerError.swift; sourceTree = "<group>"; };
 		FCEA073D2A417DA60073B56D /* UIColor+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+.swift"; sourceTree = "<group>"; };
+		FCEA07422A42D8B70073B56D /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,6 +145,7 @@
 				FC0711DB2A025B6E005955C0 /* MainViewController.swift */,
 				FC0457C22A309CC300E6BBD9 /* MainReactor.swift */,
 				FC0457E72A381F7700E6BBD9 /* TimePicker */,
+				FCEA07422A42D8B70073B56D /* BaseViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -398,6 +401,7 @@
 				FC0711D82A025B6E005955C0 /* AppDelegate.swift in Sources */,
 				FC0457B92A302E7C00E6BBD9 /* NetworkError.swift in Sources */,
 				FC0457B52A302E7C00E6BBD9 /* NetworkAPIMethod.swift in Sources */,
+				FCEA07432A42D8B70073B56D /* BaseViewController.swift in Sources */,
 				FC0457BB2A302EB000E6BBD9 /* Logger.swift in Sources */,
 				FCEA073E2A417DA60073B56D /* UIColor+.swift in Sources */,
 				FC0457CB2A31BF7A00E6BBD9 /* GreetingsType.swift in Sources */,
